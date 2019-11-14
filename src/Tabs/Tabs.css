@@ -1,0 +1,23 @@
+.Tab {
+    display: inline-block;
+
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #B9B9B9;
+
+    background: #F8F8F8;
+
+    padding: 8px 24px 11px;
+    margin-right: 8px;
+}
+
+.Tab:last-child {
+    margin-right: 0;
+}
+
+.Tab_Active {
+    color: #2B2829;
+    background: #FFFFFF;
+    border-top: 2px solid #F50634;
+}

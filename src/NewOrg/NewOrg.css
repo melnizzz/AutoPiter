@@ -1,0 +1,61 @@
+.NewOrg {
+    padding: 32px 24px;
+}
+
+.Search-Query {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 48px;
+
+    padding: 13px 16px 6px;
+
+    color: #B9B9B9;
+    font-size: 14px;
+    line-height: 26px;
+
+    border-radius: 3px;
+    border: 1px solid #E5E5E5;
+}
+
+.Plus {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-bottom: -16px;
+
+    border-radius: 50%;
+    border: 4px solid #DFDFDF;
+}
+
+.Plus-Vertical {
+    position: relative;
+    left: 28px;
+    top: 14px;
+
+    border: 2px solid #DFDFDF;
+    width: 0;
+    height: 32px;
+}
+
+.Plus-Horizontal {
+    position: relative;
+    left: 12px;
+    top: -6px;
+
+    border: 2px solid #DFDFDF;
+    width: 32px;
+    height: 0;
+}
+
+.EmptyQuery-Text {
+    display: inline-block;
+    width: 315px;
+    height: 46px;
+    margin-top: 65px;
+    margin-left: 32px;
+
+    font-size: 14px;
+    line-height: 20px;
+    color: #777777;
+}
