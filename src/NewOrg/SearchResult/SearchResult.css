@@ -1,0 +1,61 @@
+.SearchResult {
+    position: relative;
+    top: -3px;
+    padding-top: 16px;
+
+    max-height: 440px;
+
+    border: 1px solid #E5E5E5;
+    border-top: none;
+    border-radius: 0 0 3px 3px;
+
+    overflow: auto;
+}
+
+.SearchResult .Org {
+    box-sizing: border-box;
+    width: 100%;
+
+    padding: 7px 25px 0;
+    margin: 9px 0;
+
+    color: #2B292A;
+}
+
+.SearchResult .Org:hover {
+    background: #F8F8F8;
+}
+
+.SearchResult .Org:first-child {
+    /*padding-top: 16px;*/
+    margin-top: 0;
+}
+
+.SearchResult .Org-Name {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.SearchResult .Org-Inn,
+.SearchResult .Org-City {
+    display: inline-block;
+    height: 21px;
+    margin-right: 10px;
+
+    font-size: 12px;
+    line-height: 17px;
+
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.SearchResult .Org-Inn {
+    width: 80px;
+}
+
+.SearchResult .Org-City {
+    width: 500px;
+    white-space: pre;
+}
+

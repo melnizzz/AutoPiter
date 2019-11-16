@@ -1,0 +1,86 @@
+.SearchOrg-Save {
+    width: 186px;
+    height: 46px;
+    margin-top: 32px;
+
+    background: #F50634;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    color: white;
+}
+.SearchOrg-Save:hover {
+    background: #F79DAE;
+}
+.SearchOrg-Save:active {
+    background: #F79DAE6B;
+}
+
+.SearchOrg-Saved {
+    width: 186px;
+    height: 46px;
+    margin-top: 32px;
+
+    background: #FFFFFF;
+
+    font-size: 18px;
+    line-height: 34px;
+    font-weight: bold;
+    color: #B9B9B9;
+}
+
+.SearchOrg-Ok {
+    margin-right: 8px;
+}
+
+.SearchOrg-Name {
+    margin-top: 40px;
+}
+
+.SearchOrg-Separator {
+    width: 688px;
+    border-top: solid 1px #DFDFDF;
+    margin-bottom: 24px;
+}
+
+.SearchOrg .Address {
+    margin-bottom: 21px;
+}
+
+.SearchOrg .Address .Address-Title,
+.SearchOrg .Management .Management-Title {
+    height: 21px;
+    margin-bottom: 8px;
+}
+
+.SearchOrg .Address .Address-Value,
+.SearchOrg .Management .Management-Value {
+    margin-bottom: 8px;
+}
+
+.SearchOrg-Left, .SearchOrg-Right {
+    display: inline-block;
+}
+
+.SearchOrg-Left {
+    width: 440px;
+    padding-right: 20px;
+}
+
+.SearchOrg-Right {
+    position: absolute;
+
+    width: 180px;
+    padding: 24px;
+
+    background: #F8F8F8;
+    border-radius: 3px;
+}
+
+.SearchOrg-Right > div > *{
+    display: inline-block;
+}
+
+.SearchOrg-Right h3 {
+    width: 60px;
+}
