@@ -8,7 +8,13 @@ export interface IOrg {
     inn: string;
     kpp?: string;
     ogrn?: string;
-    adress: string;
-    director: string;
+    adress: {
+        full?: string;
+        short?: string;
+    };
+    management?: {
+        post?: string;
+        name?: string;
+    };
     id: string;
 }
