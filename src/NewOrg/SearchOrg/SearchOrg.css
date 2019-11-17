@@ -1,3 +1,7 @@
+.SearchOrg {
+    position: relative;
+}
+
 .SearchOrg-Save {
     width: 186px;
     height: 46px;
@@ -8,12 +12,11 @@
     border: none;
     outline: none;
     color: white;
+
+    cursor: pointer;
 }
 .SearchOrg-Save:hover {
-    background: #F79DAE;
-}
-.SearchOrg-Save:active {
-    background: #F79DAE6B;
+    background: #F36A84;
 }
 
 .SearchOrg-Saved {
@@ -38,7 +41,7 @@
 }
 
 .SearchOrg-Separator {
-    width: 688px;
+    width: 100%;
     border-top: solid 1px #DFDFDF;
     margin-bottom: 24px;
 }
@@ -69,6 +72,7 @@
 
 .SearchOrg-Right {
     position: absolute;
+    right: 0;
 
     width: 180px;
     padding: 24px;

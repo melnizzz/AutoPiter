@@ -10,7 +10,7 @@ export const Page: React.FunctionComponent = () => (
     </div>
     <div className={'Main'}>
         <div className={'Main-Content'}>
-            <h1 className={'Title'}>Мои организации</h1>
+            <h1 className={'Main-Title'}>Мои организации</h1>
             <Menu />
         </div>
     </div>

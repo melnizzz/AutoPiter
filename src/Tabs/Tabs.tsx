@@ -11,7 +11,7 @@ interface ITabsProps {
 
 interface ITabProps {
     type: TabsTypes;
-    text: string;
+    children: JSX.Element;
     isActive: boolean;
 }
 
@@ -22,14 +22,18 @@ export const Tabs: React.FunctionComponent<ITabsProps> = props => {
 
     const Tab: React.FunctionComponent<ITabProps> = props => (
         <div className={`Tab${props.isActive ? ' Tab_Active' : ''}`} key={props.type} onClick={() => clickHandler(props.type)}>
-            {props.text}
+            {props.children}
         </div>
     );
 
     return (
         <div className={'Tabs'}>
-            <Tab text={'Новая организация'} type={TabsTypes.NEW_ORG} isActive={props.currentTab === TabsTypes.NEW_ORG} />
-            <Tab text={`Сохранённые организации (${props.orgsCount})`} type={TabsTypes.SAVED_ORGS} isActive={props.currentTab === TabsTypes.SAVED_ORGS} />
+            <Tab children={<span>Новая организация</span>} type={TabsTypes.NEW_ORG} isActive={props.currentTab === TabsTypes.NEW_ORG} />
+            <Tab
+                children={<span>Сохранённые организации <span className={'Tab-OrgsCount'}>({props.orgsCount})</span></span>}
+                type={TabsTypes.SAVED_ORGS}
+                isActive={props.currentTab === TabsTypes.SAVED_ORGS}
+            />
         </div>
     );
 };

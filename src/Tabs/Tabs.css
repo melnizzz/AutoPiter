@@ -10,6 +10,8 @@
 
     padding: 8px 24px 11px;
     margin-right: 8px;
+
+    cursor: pointer;
 }
 
 .Tab:last-child {
@@ -20,4 +22,12 @@
     color: #2B2829;
     background: #FFFFFF;
     border-top: 2px solid #F50634;
+}
+
+.Tab-OrgsCount {
+    color: #777777;
+}
+
+.Tab_Active .Tab-OrgsCount {
+    color: #C31335
 }
